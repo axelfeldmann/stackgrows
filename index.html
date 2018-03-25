@@ -4,7 +4,11 @@
 
 <script>
 	var randNum = Math.floor(Math.random() * 2);
-	if (randNum == 0) window.open('stackgrowsdown.com', 'stackgrowsup.com');
+	if (randNum == 0){
+		window.location = "stackgrowsup.com";
+	} else {
+		window.location = "stackgrowsdown.com";
+	}
 </script> 
 
 </body>
